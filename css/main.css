@@ -120,9 +120,6 @@ html,body {
     display: inline-block;
     vertical-align: middle;
 }*/
-.onPage:nth-child(2n) {
-    background-color: #abcdef;
-}
 .onPage .flexBox {
     /*display: flex;*/
     /*vertical-align: middle;*/
@@ -137,10 +134,10 @@ html,body {
     background:url(../img/interstellar.jpg) center center;
 }
 .div2 {
-    background:url(../img/photo1.jpg);
+    background:url(../img/photo1.jpg) center center;
 }
 .div3 {
-    background:url(../img/photo2.jpg);
+    background:url(../img/photo2.jpg) center center;
 }
 
 

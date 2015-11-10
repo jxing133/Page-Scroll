@@ -17,7 +17,6 @@ jQuery(document).ready(function($) {
 				screenH += winH;
 				aimScroll += winH;
 				$("html, body").stop().animate({scrollTop: screenH},500);
-				console.log(screenH);
 			}
 			else if(winScroll < -50){
 				screenH -= winH;
@@ -36,6 +35,6 @@ jQuery(document).ready(function($) {
 	$(window).resize(function() {
 		aimScroll = 0;
 		screenH = 0;
-		$("html, body").stop().animate({scrollTop: screenH},500);
+		$("html, body").stop().animate({scrollTop: 0},500);
 	});
 });
