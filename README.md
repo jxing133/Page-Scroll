@@ -1,4 +1,4 @@
-# Page-Scroll
+# Page-Scroll v1.0
 ###运用JQuery实现单页滚动效果
 监听窗口滚动幅度.超过150px就滚动下一页或上一页.
 <section> 自适应满屏.文字内容居中.
